@@ -1,0 +1,3 @@
+git Bash will use MinTTY as terminal emulaator, which sports a resizable windows non-rectangular selection and a Unicode font. Windows  console  programs(such as interactive Python)must be launched via "winpty" to work in MinTTY.
+
+Git will use the default console windows of Windows("cmd.exe"), which works well with win32 console programs such as interactive Python or node.js, but has a very limied defaullt scroll-back, needs to be configured to ouse a Unicode font in order to display non-ASCII character correctly correctly, and  prior to windows 10 its window was not freelly resizable and it only allowed rentangular text selections.
